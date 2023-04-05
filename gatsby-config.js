@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: 'https://run.yoyozai.com' || '/',
+  pathPrefix: process.env.PATH_PREFIX || '/',
   siteMetadata: {
     siteTitle: 'Running Page',
     siteUrl: 'https://run.yoyozai.com',
